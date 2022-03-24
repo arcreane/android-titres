@@ -1,6 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#08132F"
+    tools:context=".MainActivity">
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tetris" />
+
+    <Button
+        android:id="@+id/btnNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FE9D12"
+        android:bottomLeftRadius="50dp"
+        android:bottomRightRadius="50dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:scaleX="1.75"
+        android:scaleY="1.75"
+        android:text="NORMAL"
+        android:textSize="18sp"
+        android:topLeftRadius="50dp"
+        android:topRightRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtClassement" />
+
+    <Button
+        android:id="@+id/btnDifficile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:backgroundTint="#FD4D6D"
+        android:bottomLeftRadius="50dp"
+        android:bottomRightRadius="50dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:scaleX="1.75"
+        android:scaleY="1.75"
+        android:text="DIFFICILE"
+        android:textSize="18sp"
+        android:topLeftRadius="50dp"
+        android:topRightRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNormal" />
+
+    <Button
+        android:id="@+id/btnFacile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:backgroundTint="#6DF550"
+        android:bottomLeftRadius="50dp"
+        android:bottomRightRadius="50dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:scaleX="1.75"
+        android:scaleY="1.75"
+        android:text="FACILE"
+        android:textSize="18sp"
+        android:topLeftRadius="50dp"
+        android:topRightRadius="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnNormal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtClassement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="DIFFICULTÉ"
+        android:textColor="#FF33FF"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

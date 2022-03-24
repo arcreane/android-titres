@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/tetris" />
 
     <Button
-        android:id="@+id/btnPlay"
+        android:id="@+id/btnNormal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#08F8FD"
