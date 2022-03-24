@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#08132F"
-    tools:context=".MainActivity">
+    tools:context=".DifficultyActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnNormal" />
 
     <Button
-        android:id="@+id/btnFacile2"
+        android:id="@+id/btnFacile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="33dp"
