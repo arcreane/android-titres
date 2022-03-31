@@ -15,9 +15,12 @@ public class DifficultyActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.difficulty_activity);
 
-        Button btnDifficulty = (Button)findViewById(R.id.btnFacile);
+        Button btnPlayGameFacile = (Button)findViewById(R.id.btnFacile);
+        Button btnPlayGameNormal = (Button)findViewById(R.id.btnNormal);
+        Button btnPlayGameDifficile = (Button)findViewById(R.id.btnDifficile);
+        Button btnSon = (Button)findViewById(R.id.btnSon);
 
-        btnDifficulty.setOnClickListener(new View.OnClickListener() {
+        btnPlayGameFacile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(DifficultyActivity.this, TitresActivity.class));
