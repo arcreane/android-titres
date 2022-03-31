@@ -28,7 +28,7 @@
             android:textAlignment="center"
             android:textAppearance="Aldo the Apache"
             android:textColor="#6DF550"
-            android:textSize="25"
+            android:textSize="25dp"
             android:textStyle="bold" />
 
         <Button
@@ -50,7 +50,7 @@
             android:textAlignment="center"
             android:textAppearance="Aldo the Apache"
             android:textColor="#FF33FF"
-            android:textSize="25"
+            android:textSize="25dp"
             android:textStyle="bold" />
 
     </LinearLayout>
