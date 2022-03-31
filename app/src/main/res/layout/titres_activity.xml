@@ -24,9 +24,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
             android:text="Score: 10392"
             android:textAlignment="center"
-            android:textAppearance="Aldo the Apache"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="#6DF550"
             android:textSize="25dp"
             android:textStyle="bold" />
@@ -46,9 +47,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
             android:text="00:00:00"
             android:textAlignment="center"
-            android:textAppearance="Aldo the Apache"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="#FF33FF"
             android:textSize="25dp"
             android:textStyle="bold" />
