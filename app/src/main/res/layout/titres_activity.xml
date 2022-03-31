@@ -67,29 +67,29 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <Button
+        <ImageButton
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
+            android:layout_width="117dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#00F8FD"
-            android:text="gauche" />
+            android:background="@drawable/arrow_left"
+            android:backgroundTint="#00F8FD" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="151dp"
+            android:layout_width="186dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#FE9D10"
             android:text="tourner" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
+            android:layout_width="117dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#FD4A6D"
-            android:text="droite" />
+            android:background="@drawable/arrow_right"
+            android:backgroundTint="#FD4A6D" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
