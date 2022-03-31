@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#08132F"
+        tools:context=".DifficultyActivity"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="195dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tetris" />
+
+        <Button
+            android:id="@+id/btnFacile"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#6DF550"
+            android:bottomLeftRadius="50dp"
+            android:bottomRightRadius="50dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:scaleX="1.75"
+            android:scaleY="1.75"
+            android:text="REJOUER"
+            android:textSize="18sp"
+            android:topLeftRadius="50dp"
+            android:topRightRadius="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="609dp" />
+
+        <Button
+            android:id="@+id/btnFacile2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#00F8FD"
+            android:bottomLeftRadius="50dp"
+            android:bottomRightRadius="50dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:scaleX="1.75"
+            android:scaleY="1.75"
+            android:text="ACCUEIL"
+            android:textSize="18sp"
+            android:topLeftRadius="50dp"
+            android:topRightRadius="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="521dp" />
+
+        <TextView
+            android:id="@+id/txtClassement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:singleLine="false"
+            android:text="GAME OVER"
+            android:textColor="#FF356A"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/txtClassement2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            android:ems="10"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:singleLine="false"
+            android:text="SCORE: 1000"
+            android:textColor="#FDD71D"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/txtClassement3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:ems="10"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:singleLine="false"
+            android:text="00:00:00"
+            android:textColor="#FF33FF"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
