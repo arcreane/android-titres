@@ -21,8 +21,8 @@
 
         <TextView
             android:id="@+id/button5"
-            android:layout_width="95dp"
-            android:layout_height="match_parent"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/alfa_slab_one"
             android:text="Score: 10392"
@@ -34,7 +34,7 @@
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="wrap_content"
+            android:layout_width="4dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:height="5dp"
@@ -45,14 +45,14 @@
         <TextView
             android:id="@+id/button7"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/alfa_slab_one"
             android:text="00:00:00"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="#FF33FF"
-            android:textSize="25dp"
+            android:textSize="22dp"
             android:textStyle="bold" />
 
     </LinearLayout>
