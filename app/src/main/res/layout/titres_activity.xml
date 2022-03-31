@@ -17,43 +17,7 @@
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
-
-        <TextView
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Score: 10392"
-            android:textAlignment="center"
-            android:textAppearance="Aldo the Apache"
-            android:textColor="#6DF550"
-            android:textSize="25"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:height="5dp"
-            android:backgroundTint="#FE9D10"
-            android:text="Pause"
-            android:textColor="#FFFFFF" />
-
-        <TextView
-            android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="00:00:00"
-            android:textAlignment="center"
-            android:textAppearance="Aldo the Apache"
-            android:textColor="#FF33FF"
-            android:textSize="25"
-            android:textStyle="bold" />
-
-    </LinearLayout>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -63,31 +27,5 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="#00F8FD"
-            android:text="gauche" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="151dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="#FE9D10"
-            android:text="tourner" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="#FD4A6D"
-            android:text="droite" />
-    </LinearLayout>
-
+        app:layout_constraintStart_toStartOf="parent"></LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

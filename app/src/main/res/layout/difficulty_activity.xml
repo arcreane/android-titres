@@ -22,15 +22,15 @@
 
     <Button
         android:id="@+id/btnNormal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:backgroundTint="#FE9D12"
         android:bottomLeftRadius="50dp"
         android:bottomRightRadius="50dp"
         android:fontFamily="@font/alfa_slab_one"
         android:scaleX="1.75"
         android:scaleY="1.75"
-        android:text="NORMAL"
+        android:text="NORMALE"
         android:textSize="18sp"
         android:topLeftRadius="50dp"
         android:topRightRadius="50dp"
@@ -42,8 +42,8 @@
 
     <Button
         android:id="@+id/btnDifficile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_marginTop="33dp"
         android:backgroundTint="#FD4D6D"
         android:bottomLeftRadius="50dp"
@@ -62,8 +62,8 @@
 
     <Button
         android:id="@+id/btnFacile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="33dp"
         android:backgroundTint="#6DF550"
         android:bottomLeftRadius="50dp"
