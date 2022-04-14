@@ -27,6 +27,16 @@ public class DifficultyActivity extends AppCompatActivity{
             }
         });
 
+        //Fonction gestion du son
+//        btnSon.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Settings.soundEnabled = !Settings.soundEnabled;
+//                if (Settings.soundEnabled){
+//                    Assets.click.play(1);
+//                }
+//            }
+//        });
     }
 
 }
